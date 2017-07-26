@@ -32,7 +32,7 @@ app.all('*', function(req, res) {   // serve all other requests
   res.writeHead(200, {"Content-Type": "text/html; charset=UTF-8"});
   res.write("<html><body style='font-family: Arial'><img align='left' src='./images/Blue-Green-icon.png'>");
   res.write("<h1><br><br><br>&nbsp;&nbsp;Blue-Green deployments</h1><hr>");
-  res.write("<p><img src='./images/Blue-station.png'></p>");
+  res.write("<p><img src='./images/Green-station.png'></p>");
   res.write("<hr>");
   res.write("<p><b>Application name:</b> "+ app_obj.application_name+"</p>");
   res.write("<p><b>Application version:</b> "+ app_obj.application_version+"</p>");
